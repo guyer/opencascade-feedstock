@@ -1,1 +1,13 @@
-[]
+channels:
+  sources:
+  - conda-forge
+  - guyer
+  - defaults
+  targets:
+  - [guyer, main]
+travis:
+  secure:
+    BINSTAR_TOKEN: SYtW2B/OShcV6WoiNj7TABW4ArKtPpDYjDnKOAN62K6GIF+6Z5iYe/kvBKmyq/oZQcJ/6UO9hLMOEgoXmRXwQ4Vz++/RMoHKfQ0M0ni0oLZlFzHBFwDWAm7Cwvm7czyQNb4EGUtTBKNlSTd/XKWveHK2NlPpl/oBZ9vjcEeWSuZdvtu6c3ptPihN6lM7bfUKX406W009uvdhCTzoJldRMok3C97cpRtLnlpJbL3XconuHRHQZ12Nwne2fZiRJ8QYmDCk1q2rfRENCPov5GxWPxYe1EFHLR8Wtq00Cp/4aCeqOnzZdMXT7a4GpkJb/OPs2NWhd1Yp6y1nv8fhgNF8nxjGiFyXUnn03+vlHGmWWOTee1k694lzoM7aRP9QcC0KaEGPjEMaZdkCD0rwC7zdx60tsVIBAWWC525gkM22+WTRiMC7strecoJP2E8/IBTHLdlFFsIZH9K6Zwtj1SM/vmC2NuYlCpp8xXxkLcdEBv25frcgNWNB0s6V+nPOc4OLZ1nY9YcgI+woPAMHEm9XwsR8xPrb35mFOy84EK/AgjRy/vaxSgQQAxf4tMLkv07wV2yzXbPXDcIST6p/vaauMKPyOpGjkMd0zQqPjMekZXPkI6NmaoCctU1eStKBeL3GdmllhTeuS2Tp6zd1HpT4YE3yajKsjiJIYXGVBatS2Zc=
+appveyor:
+  secure:
+    BINSTAR_TOKEN: 26P3JkJ/iVPaW6c+5V5XYJ6H9Jaw/iYr0SU7KqDJCRk2+ScBP0rsvIyDOxDE9let
